@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "build": "webpack",
+        "build": "npm run clear && webpack",
         "clear": "rimraf ./dist/**/*"
     },
     "devDependencies": {
